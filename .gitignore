@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Model weights (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Generated outputs
+data/out_baseline/*.v
+results/*.csv
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
