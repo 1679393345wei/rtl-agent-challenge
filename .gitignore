@@ -16,14 +16,23 @@ env/
 .idea/
 
 # Model weights (too large for git)
+model/*.bin
+model/*.safetensors
+model/*.pt
+model/*.pth
 *.bin
 *.safetensors
 *.pt
 *.pth
 
+# HuggingFace cache
+.cache/
+.cache/huggingface/
+
 # Generated outputs
 data/out_baseline/*.v
 results/*.csv
+*.log
 
 # Docker
 .dockerignore

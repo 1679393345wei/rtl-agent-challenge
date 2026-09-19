@@ -9,6 +9,14 @@ RTL 本地智能体设计赛道 — VerilogEval v2 自动化评测与优化
 - **数据集：** VerilogEval v2（dataset_spec-to-rtl，156 题）
 - **运行环境：** AMD ROCm 云算力，单卡 32GB
 
+## 环境说明
+
+- **算力平台：** AMD ROCm 云算力（单卡 32GB）
+- **推理框架：** vLLM (ROCm 版)
+- **模型：** QiMeng-SALV-7B (Qwen2.5-Coder-7B)
+- **仿真工具：** Icarus Verilog v12
+- **综合工具：** Vivado 2025.2 (xczu3eg-sbva484-1-e, 时钟 5ns)
+
 ## 目录结构
 
 ```
