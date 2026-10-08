@@ -29,10 +29,19 @@ model/*.pth
 .cache/
 .cache/huggingface/
 
-# Generated outputs
+# Generated outputs (raw per-problem Verilog dumps)
 data/out_baseline/*.v
-results/*.csv
+
+# Logs (noisy, not committed)
+logs/
 *.log
+
+# Results: keep small evaluation CSVs as reproducible evidence
+# (baseline_v12 / agent_verified_v12 / stability_r* / problem_classification)
+# ignore bulky raw dumps instead
+results/*.json
+results/*.log
+results/*.v
 
 # Docker
 .dockerignore

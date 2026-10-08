@@ -1,0 +1,631 @@
+﻿"prob_id","category","status","error_msg","finish_reason"
+"Prob001","combinational","pass","","stop"
+"Prob002","combinational","pass","","stop"
+"Prob003","combinational","pass","","stop"
+"Prob004","combinational","pass","","stop"
+"Prob005","combinational","pass","","stop"
+"Prob006","combinational","pass","","stop"
+"Prob007","combinational","pass","","stop"
+"Prob008","combinational","pass","","stop"
+"Prob009","combinational","pass","","stop"
+"Prob010","combinational","pass","","stop"
+"Prob011","combinational","pass","","stop"
+"Prob012","combinational","pass","","stop"
+"Prob013","combinational","pass","","stop"
+"Prob014","combinational","pass","","stop"
+"Prob015","combinational","pass","","stop"
+"Prob016","combinational","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob016_m2014_q4j.sv:22: syntax error
+I give up.
+","stop"
+"Prob017","combinational","pass","","stop"
+"Prob018","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob018_mux256to1_test.sv:20: $finish called at 10000 (1ps)
+Hint: Output 'out' has 969 mismatches. First mismatch occurred at time 35.
+Hint: Total mismatched samples is 969 out of 2000 samples
+
+Simulation finished at 10000 ps
+Mismatches: 969 in 2000 samples
+","stop"
+"Prob019","combinational","pass","","stop"
+"Prob020","combinational","pass","","stop"
+"Prob021","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob021_mux256to1v_test.sv:20: $finish called at 10000 (1ps)
+Hint: Output 'out' has 1836 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 1836 out of 2000 samples
+
+Simulation finished at 10000 ps
+Mismatches: 1836 in 2000 samples
+","stop"
+"Prob022","combinational","pass","","stop"
+"Prob023","combinational","pass","","stop"
+"Prob024","combinational","pass","","stop"
+"Prob025","combinational","pass","","stop"
+"Prob026","combinational","pass","","stop"
+"Prob027","combinational","pass","","stop"
+"Prob028","sequential","pass","","stop"
+"Prob029","combinational","pass","","stop"
+"Prob030","combinational","pass","","stop"
+"Prob031","sequential","pass","","stop"
+"Prob032","combinational","pass","","stop"
+"Prob033","combinational","pass","","stop"
+"Prob034","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob034_dff8_test.sv:36: $finish called at 206 (1ps)
+Hint: Output 'q' has 1 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 1 out of 41 samples
+
+Simulation finished at 206 ps
+Mismatches: 1 in 41 samples
+","stop"
+"Prob035","sequential","pass","","stop"
+"Prob036","combinational","pass","","stop"
+"Prob037","sequential","pass","","stop"
+"Prob038","sequential","pass","","stop"
+"Prob039","combinational","pass","","stop"
+"Prob040","sequential","pass","","stop"
+"Prob041","sequential","pass","","stop"
+"Prob042","combinational","pass","","stop"
+"Prob043","combinational","pass","","stop"
+"Prob044","combinational","pass","","stop"
+"Prob045","sequential","pass","","stop"
+"Prob046","sequential","pass","","stop"
+"Prob047","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+Hint: Your reset should be asynchronous, but doesn't appear to be.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob047_dff8ar_test.sv:73: $finish called at 2181 (1ps)
+Hint: Output 'q' has 44 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 44 out of 436 samples
+
+Simulation finished at 2181 ps
+Mismatches: 44 in 436 samples
+","stop"
+"Prob048","sequential","pass","","stop"
+"Prob049","sequential","pass","","stop"
+"Prob050","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob050_kmap1_test.sv:38: $finish called at 1096 (1ps)
+Hint: Output 'out' has 110 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 110 out of 219 samples
+
+Simulation finished at 1096 ps
+Mismatches: 110 in 219 samples
+","stop"
+"Prob051","combinational","pass","","stop"
+"Prob052","combinational","pass","","stop"
+"Prob053","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob053_m2014_q4d_test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'out' has 1 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 1 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 1 in 100 samples
+","stop"
+"Prob054","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob054_edgedetect_test.sv:45: $finish called at 1135 (1ps)
+Hint: Output 'pedge' has 180 mismatches. First mismatch occurred at time 110.
+Hint: Total mismatched samples is 180 out of 227 samples
+
+Simulation finished at 1135 ps
+Mismatches: 180 in 227 samples
+","stop"
+"Prob055","combinational","pass","","stop"
+"Prob056","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob056_ece241_2013_q7_test.sv:43: $finish called at 2110 (1ps)
+Hint: Output 'Q' has 52 mismatches. First mismatch occurred at time 50.
+Hint: Total mismatched samples is 52 out of 422 samples
+
+Simulation finished at 2110 ps
+Mismatches: 52 in 422 samples
+","stop"
+"Prob057","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob057_kmap2_test.sv:38: $finish called at 1161 (1ps)
+Hint: Output 'out' has 125 mismatches. First mismatch occurred at time 40.
+Hint: Total mismatched samples is 125 out of 232 samples
+
+Simulation finished at 1161 ps
+Mismatches: 125 in 232 samples
+","stop"
+"Prob058","sequential","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob058_alwaysblock2.sv:16: error: temp_comb is not a valid l-value in tb.top_module1.
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob058_alwaysblock2.sv:14:      : temp_comb is declared here as wire.
+1 error(s) during elaboration.
+","stop"
+"Prob059","combinational","pass","","stop"
+"Prob060","sequential","pass","","stop"
+"Prob061","sequential","pass","","stop"
+"Prob062","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob062_bugs_mux2_test.sv:47: $finish called at 570 (1ps)
+Hint: Output 'out' has 110 mismatches. First mismatch occurred at time 20.
+Hint: Total mismatched samples is 110 out of 114 samples
+
+Simulation finished at 570 ps
+Mismatches: 110 in 114 samples
+","stop"
+"Prob063","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob063_review2015_shiftcount_test.sv:63: $finish called at 10356 (1ps)
+Hint: Output 'q' has 1886 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 1886 out of 2071 samples
+
+Simulation finished at 10356 ps
+Mismatches: 1886 in 2071 samples
+","stop"
+"Prob064","combinational","sim_fail","_v2_dataset/dataset_spec-to-rtl/Prob064_vector3_test.sv:44: $finish called at 630 (1ps)
+Hint: Output 'w' has 100 mismatches. First mismatch occurred at time 130.
+Hint: Output 'x' has 101 mismatches. First mismatch occurred at time 130.
+Hint: Output 'y' has 115 mismatches. First mismatch occurred at time 60.
+Hint: Output 'z' has 71 mismatches. First mismatch occurred at time 60.
+Hint: Total mismatched samples is 115 out of 126 samples
+
+Simulation finished at 630 ps
+Mismatches: 115 in 126 samples
+","stop"
+"Prob065","combinational","pass","","stop"
+"Prob066","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob066_edgecapture_test.sv:86: $finish called at 1330 (1ps)
+Hint: Output 'out' has 91 mismatches. First mismatch occurred at time 140.
+Hint: Total mismatched samples is 91 out of 266 samples
+
+Simulation finished at 1330 ps
+Mismatches: 91 in 266 samples
+","stop"
+"Prob067","sequential","pass","","stop"
+"Prob068","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob068_countbcd_test.sv:68: $finish called at 199026 (1ps)
+Hint: Output 'ena' has 876 mismatches. First mismatch occurred at time 970.
+Hint: Output 'q' has 39064 mismatches. First mismatch occurred at time 980.
+Hint: Total mismatched samples is 39068 out of 39805 samples
+
+Simulation finished at 199026 ps
+Mismatches: 39068 in 39805 samples
+","stop"
+"Prob069","combinational","pass","","stop"
+"Prob070","combinational","sim_fail","ombinations, but doesn't match the don't-care cases. Are you using minimal SOP and POS?
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob070_ece241_2013_q2_test.sv:63: $finish called at 535 (1ps)
+Hint: Output 'out_sop' has 10 mismatches. First mismatch occurred at time 170.
+Hint: Output 'out_pos' has 7 mismatches. First mismatch occurred at time 220.
+Hint: Total mismatched samples is 17 out of 107 samples
+
+Simulation finished at 535 ps
+Mismatches: 17 in 107 samples
+","stop"
+"Prob071","combinational","pass","","stop"
+"Prob072","combinational","pass","","stop"
+"Prob073","sequential","pass","","stop"
+"Prob074","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob074_ece241_2014_q4_test.sv:42: $finish called at 590 (1ps)
+Hint: Output 'z' has 118 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 118 out of 118 samples
+
+Simulation finished at 590 ps
+Mismatches: 118 in 118 samples
+","stop"
+"Prob075","sequential","pass","","stop"
+"Prob076","combinational","pass","","stop"
+"Prob077","combinational","pass","","stop"
+"Prob078","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob078_dualedge_test.sv:36: $finish called at 1121 (1ps)
+Hint: Output 'q' has 52 mismatches. First mismatch occurred at time 25.
+Hint: Total mismatched samples is 52 out of 224 samples
+
+Simulation finished at 1121 ps
+Mismatches: 52 in 224 samples
+","stop"
+"Prob079","combinational","pass","","stop"
+"Prob080","sequential","pass","","stop"
+"Prob081","combinational","pass","","stop"
+"Prob082","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+TIMEOUT
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob082_lfsr32_test.sv:114: $finish called at 1000000 (1ps)
+Hint: Output 'q' has 199953 mismatches. First mismatch occurred at time 190.
+Hint: Total mismatched samples is 199953 out of 200000 samples
+
+Simulation finished at 1000000 ps
+Mismatches: 199953 in 200000 samples
+","stop"
+"Prob083","combinational","pass","","stop"
+"Prob084","complex","pass","","stop"
+"Prob085","sequential","pass","","stop"
+"Prob086","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob086_lfsr5_test.sv:65: $finish called at 22216 (1ps)
+Hint: Output 'q' has 4276 mismatches. First mismatch occurred at time 40.
+Hint: Total mismatched samples is 4276 out of 4443 samples
+
+Simulation finished at 22216 ps
+Mismatches: 4276 in 4443 samples
+","stop"
+"Prob087","combinational","pass","","stop"
+"Prob088","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob088_ece241_2014_q5b_test.sv:73: $finish called at 2180 (1ps)
+Hint: Output 'z' has 168 mismatches. First mismatch occurred at time 160.
+Hint: Total mismatched samples is 168 out of 436 samples
+
+Simulation finished at 2180 ps
+Mismatches: 168 in 436 samples
+","stop"
+"Prob089","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+Hint: Your reset doesn't seem to be working.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob089_ece241_2014_q5a_test.sv:73: $finish called at 2180 (1ps)
+Hint: Output 'z' has 215 mismatches. First mismatch occurred at time 20.
+Hint: Total mismatched samples is 215 out of 436 samples
+
+Simulation finished at 2180 ps
+Mismatches: 215 in 436 samples
+","stop"
+"Prob090","combinational","pass","","stop"
+"Prob091","combinational","sim_fail","e you doing something more complicated than deriving state transition equations by inspection?
+
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob091_2012_q2b_test.sv:45: $finish called at 3001 (1ps)
+Hint: Output 'Y1' has 15 mismatches. First mismatch occurred at time 1035.
+Hint: Output 'Y3' has 123 mismatches. First mismatch occurred at time 1015.
+Hint: Total mismatched samples is 138 out of 600 samples
+
+Simulation finished at 3001 ps
+Mismatches: 138 in 600 samples
+","stop"
+"Prob092","combinational","pass","","stop"
+"Prob093","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob093_ece241_2014_q3_test.sv:38: $finish called at 300 (1ps)
+Hint: Output 'mux_in' has 38 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 38 out of 60 samples
+
+Simulation finished at 300 ps
+Mismatches: 38 in 60 samples
+","stop"
+"Prob094","combinational","sim_fail"," info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob094_gatesv_test.sv:44: $finish called at 1066 (1ps)
+Hint: Output 'out_both' has 116 mismatches. First mismatch occurred at time 5.
+Hint: Output 'out_any' has 109 mismatches. First mismatch occurred at time 5.
+Hint: Output 'out_different' has no mismatches.
+Hint: Total mismatched samples is 172 out of 213 samples
+
+Simulation finished at 1066 ps
+Mismatches: 172 in 213 samples
+","stop"
+"Prob095","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob095_review2015_fsmshift_test.sv:17: $finish called at 1001 (1ps)
+Hint: Output 'shift_ena' has 10 mismatches. First mismatch occurred at time 340.
+Hint: Total mismatched samples is 10 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 10 in 200 samples
+","stop"
+"Prob096","fsm","pass","","stop"
+"Prob097","combinational","pass","","stop"
+"Prob098","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob098_circuit7_test.sv:36: $finish called at 615 (1ps)
+Hint: Output 'q' has 120 mismatches. First mismatch occurred at time 20.
+Hint: Total mismatched samples is 120 out of 123 samples
+
+Simulation finished at 615 ps
+Mismatches: 120 in 123 samples
+","stop"
+"Prob099","combinational","compile_fail","/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob099_m2014_q6c_test.sv:71: error: port ``Y2'' is not a port of good1.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob099_m2014_q6c_test.sv:71: error: port ``Y4'' is not a port of good1.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob099_m2014_q6c_test.sv:77: error: port ``Y2'' is not a port of top_module1.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dat","stop"
+"Prob100","combinational","pass","","stop"
+"Prob101","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob101_circuit4_test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has 33 mismatches. First mismatch occurred at time 30.
+Hint: Total mismatched samples is 33 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 33 in 121 samples
+","stop"
+"Prob102","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob102_circuit3_test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has 15 mismatches. First mismatch occurred at time 35.
+Hint: Total mismatched samples is 15 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 15 in 121 samples
+","stop"
+"Prob103","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob103_circuit2_test.sv:36: $finish called at 605 (1ps)
+Hint: Output 'q' has 8 mismatches. First mismatch occurred at time 25.
+Hint: Total mismatched samples is 8 out of 121 samples
+
+Simulation finished at 605 ps
+Mismatches: 8 in 121 samples
+","stop"
+"Prob104","complex","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob104_mt2015_muxdff_test.sv:21: $finish called at 996 (1ps)
+Hint: Output 'Q' has 104 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 104 out of 199 samples
+
+Simulation finished at 996 ps
+Mismatches: 104 in 199 samples
+","stop"
+"Prob105","sequential","pass","","stop"
+"Prob106","combinational","pass","","stop"
+"Prob107","fsm","pass","","stop"
+"Prob108","complex","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob108_rule90_test.sv:75: $finish called at 35606 (1ps)
+Hint: Output 'q' has 7058 mismatches. First mismatch occurred at time 40.
+Hint: Total mismatched samples is 7058 out of 7121 samples
+
+Simulation finished at 35606 ps
+Mismatches: 7058 in 7121 samples
+","stop"
+"Prob109","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob109_fsm1_test.sv:71: $finish called at 1141 (1ps)
+Hint: Output 'out' has 82 mismatches. First mismatch occurred at time 20.
+Hint: Total mismatched samples is 82 out of 228 samples
+
+Simulation finished at 1141 ps
+Mismatches: 82 in 228 samples
+","stop"
+"Prob110","fsm","pass","","stop"
+"Prob111","fsm","pass","","stop"
+"Prob112","combinational","pass","","stop"
+"Prob113","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob113_2012_q1g_test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'f' has 34 mismatches. First mismatch occurred at time 20.
+Hint: Total mismatched samples is 34 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 34 in 100 samples
+","stop"
+"Prob114","combinational","pass","","stop"
+"Prob115","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob115_shift18_test.sv:75: $finish called at 20206 (1ps)
+Hint: Output 'q' has 1164 mismatches. First mismatch occurred at time 1400.
+Hint: Total mismatched samples is 1164 out of 4041 samples
+
+Simulation finished at 20206 ps
+Mismatches: 1164 in 4041 samples
+","stop"
+"Prob116","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob116_m2014_q3_test.sv:16: $finish called at 501 (1ps)
+Hint: Output 'f' has 19 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 19 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 19 in 100 samples
+","stop"
+"Prob117","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob117_circuit9_test.sv:42: $finish called at 1225 (1ps)
+Hint: Output 'q' has 244 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 244 out of 245 samples
+
+Simulation finished at 1225 ps
+Mismatches: 244 in 245 samples
+","stop"
+"Prob118","sequential","pass","","stop"
+"Prob119","fsm","pass","","stop"
+"Prob120","fsm","pass","","stop"
+"Prob121","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob121_2014_q3bfsm_test.sv:26: $finish called at 5031 (1ps)
+Hint: Output 'z' has 319 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 319 out of 1006 samples
+
+Simulation finished at 5031 ps
+Mismatches: 319 in 1006 samples
+","stop"
+"Prob122","combinational","pass","","stop"
+"Prob123","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob123_bugs_addsubz_test.sv:57: $finish called at 590 (1ps)
+Hint: Output 'out' has no mismatches.
+Hint: Output 'result_is_zero' has 114 mismatches. First mismatch occurred at time 5.
+Hint: Total mismatched samples is 114 out of 118 samples
+
+Simulation finished at 590 ps
+Mismatches: 114 in 118 samples
+","stop"
+"Prob124","complex","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob124_rule110_test.sv:73: $finish called at 31416 (1ps)
+Hint: Output 'q' has 6218 mismatches. First mismatch occurred at time 50.
+Hint: Total mismatched samples is 6218 out of 6283 samples
+
+Simulation finished at 31416 ps
+Mismatches: 6218 in 6283 samples
+","stop"
+"Prob125","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob125_kmap3_test.sv:38: $finish called at 1161 (1ps)
+Hint: Output 'out' has 127 mismatches. First mismatch occurred at time 30.
+Hint: Total mismatched samples is 127 out of 232 samples
+
+Simulation finished at 1161 ps
+Mismatches: 127 in 232 samples
+","stop"
+"Prob126","combinational","pass","","stop"
+"Prob127","fsm","pass","","stop"
+"Prob128","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob128_fsm_ps2_test.sv:18: $finish called at 2001 (1ps)
+Hint: Output 'done' has 124 mismatches. First mismatch occurred at time 210.
+Hint: Total mismatched samples is 124 out of 400 samples
+
+Simulation finished at 2001 ps
+Mismatches: 124 in 400 samples
+","stop"
+"Prob129","fsm","pass","","stop"
+"Prob130","combinational","pass","","stop"
+"Prob131","complex","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob131_mt2015_q4.sv:11: error: Unknown module type: A
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob131_mt2015_q4.sv:14: error: Unknown module type: A
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob131_mt2015_q4.sv:17: error: Unknown module type: B
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob131_mt2015_q4.sv:20: error: Unknown module type: B
+5 error(s) during elaboration.
+*** These modules were missing:
+        A referenced ","stop"
+"Prob132","combinational","pass","","stop"
+"Prob133","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob133_2014_q3fsm_test.sv:59: $finish called at 7071 (1ps)
+Hint: Output 'z' has 174 mismatches. First mismatch occurred at time 110.
+Hint: Total mismatched samples is 174 out of 1414 samples
+
+Simulation finished at 7071 ps
+Mismatches: 174 in 1414 samples
+","stop"
+"Prob134","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob134_2014_q3c_test.sv:18: $finish called at 1001 (1ps)
+Hint: Output 'Y0' has no mismatches.
+Hint: Output 'z' has 49 mismatches. First mismatch occurred at time 15.
+Hint: Total mismatched samples is 49 out of 200 samples
+
+Simulation finished at 1001 ps
+Mismatches: 49 in 200 samples
+","stop"
+"Prob135","combinational","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob135_m2014_q6b_test.sv:17: $finish called at 501 (1ps)
+Hint: Output 'Y1' has 46 mismatches. First mismatch occurred at time 15.
+Hint: Total mismatched samples is 46 out of 100 samples
+
+Simulation finished at 501 ps
+Mismatches: 46 in 100 samples
+","stop"
+"Prob136","fsm","pass","","stop"
+"Prob137","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob137_fsm_serial_test.sv:45: $finish called at 4526 (1ps)
+Hint: Output 'done' has 92 mismatches. First mismatch occurred at time 110.
+Hint: Total mismatched samples is 92 out of 905 samples
+
+Simulation finished at 4526 ps
+Mismatches: 92 in 905 samples
+","stop"
+"Prob138","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob138_2012_q2fsm_test.sv:18: $finish called at 2001 (1ps)
+Hint: Output 'z' has 23 mismatches. First mismatch occurred at time 225.
+Hint: Total mismatched samples is 23 out of 400 samples
+
+Simulation finished at 2001 ps
+Mismatches: 23 in 400 samples
+","stop"
+"Prob139","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob139_2013_q2bfsm_test.sv:24: $finish called at 5011 (1ps)
+Hint: Output 'f' has 382 mismatches. First mismatch occurred at time 20.
+Hint: Output 'g' has 514 mismatches. First mismatch occurred at time 60.
+Hint: Total mismatched samples is 680 out of 1002 samples
+
+Simulation finished at 5011 ps
+Mismatches: 680 in 1002 samples
+","stop"
+"Prob140","fsm","sim_fail","opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob140_fsm_hdlc_test.sv:20: $finish called at 4006 (1ps)
+Hint: Output 'disc' has 12 mismatches. First mismatch occurred at time 480.
+Hint: Output 'flag' has 12 mismatches. First mismatch occurred at time 1550.
+Hint: Output 'err' has 183 mismatches. First mismatch occurred at time 80.
+Hint: Total mismatched samples is 203 out of 801 samples
+
+Simulation finished at 4006 ps
+Mismatches: 203 in 801 samples
+","stop"
+"Prob141","sequential","sim_fail","set/dataset_spec-to-rtl/Prob141_count_clock_test.sv:261: $finish called at 1000000 (1ps)
+Hint: Output 'pm' has 86400 mismatches. First mismatch occurred at time 434270.
+Hint: Output 'hh' has 46611 mismatches. First mismatch occurred at time 37680.
+Hint: Output 'mm' has 192465 mismatches. First mismatch occurred at time 37680.
+Hint: Output 'ss' has no mismatches.
+Hint: Total mismatched samples is 192465 out of 200000 samples
+
+Simulation finished at 1000000 ps
+Mismatches: 192465 in 200000 samples
+","stop"
+"Prob142","fsm","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob142_lemmings2.sv:33: error: Unable to bind wire/reg/memory `STATE_AAAAAH' in `tb.top_module1'
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob142_lemmings2.sv:41: error: Unable to bind wire/reg/memory `STATE_AAAAAH' in `tb.top_module1'
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob142_lemmings2.sv:47: error: Unable to bind wire/reg/memory `STATE_AAAAAH' in `tb.top_module1'
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob142_le","stop"
+"Prob143","combinational","sim_fail","s incorrect.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:62: $finish called at 1121 (1ps)
+Hint: Output 'next_state' has 221 mismatches. First mismatch occurred at time 20.
+Hint: Output 'out1' has 36 mismatches. First mismatch occurred at time 55.
+Hint: Output 'out2' has 46 mismatches. First mismatch occurred at time 50.
+Hint: Total mismatched samples is 221 out of 224 samples
+
+Simulation finished at 1121 ps
+Mismatches: 221 in 224 samples
+","stop"
+"Prob144","complex","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob144_conwaylife.sv:59: syntax error
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob144_conwaylife.sv:59: error: Malformed statement
+","stop"
+"Prob145","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob145_circuit8_test.sv:45: $finish called at 1200 (1ps)
+Hint: Output 'p' has 123 mismatches. First mismatch occurred at time 30.
+Hint: Output 'q' has 109 mismatches. First mismatch occurred at time 90.
+Hint: Total mismatched samples is 200 out of 240 samples
+
+Simulation finished at 1200 ps
+Mismatches: 200 in 240 samples
+","stop"
+"Prob146","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob146_fsm_serialdata_test.sv:45: $finish called at 4526 (1ps)
+Hint: Output 'out_byte' has 32 mismatches. First mismatch occurred at time 850.
+Hint: Output 'done' has 38 mismatches. First mismatch occurred at time 110.
+Hint: Total mismatched samples is 38 out of 905 samples
+
+Simulation finished at 4526 ps
+Mismatches: 38 in 905 samples
+","stop"
+"Prob147","sequential","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob147_circuit10_test.sv:50: $finish called at 1160 (1ps)
+Hint: Output 'q' has 20 mismatches. First mismatch occurred at time 50.
+Hint: Output 'state' has 14 mismatches. First mismatch occurred at time 60.
+Hint: Total mismatched samples is 24 out of 232 samples
+
+Simulation finished at 1160 ps
+Mismatches: 24 in 232 samples
+","stop"
+"Prob148","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob148_2013_q2afsm_test.sv:93: $finish called at 5271 (1ps)
+Hint: Output 'g' has 666 mismatches. First mismatch occurred at time 40.
+Hint: Total mismatched samples is 666 out of 1054 samples
+
+Simulation finished at 5271 ps
+Mismatches: 666 in 1054 samples
+","stop"
+"Prob149","fsm","sim_fail","to-rtl/Prob149_ece241_2013_q4_test.sv:84: $finish called at 10200 (1ps)
+Hint: Output 'fr2' has 1403 mismatches. First mismatch occurred at time 30.
+Hint: Output 'fr1' has 801 mismatches. First mismatch occurred at time 130.
+Hint: Output 'fr0' has 232 mismatches. First mismatch occurred at time 140.
+Hint: Output 'dfr' has 612 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 1411 out of 2040 samples
+
+Simulation finished at 10200 ps
+Mismatches: 1411 in 2040 samples
+","stop"
+"Prob150","combinational","sim_fail","urred at time 5.
+Hint: Output 'S1_next' has no mismatches.
+Hint: Output 'Count_next' has no mismatches.
+Hint: Output 'Wait_next' has no mismatches.
+Hint: Output 'done' has 29 mismatches. First mismatch occurred at time 30.
+Hint: Output 'counting' has 46 mismatches. First mismatch occurred at time 10.
+Hint: Output 'shift_ena' has 52 mismatches. First mismatch occurred at time 10.
+Hint: Total mismatched samples is 82 out of 300 samples
+
+Simulation finished at 1501 ps
+Mismatches: 82 in 300 samples
+","stop"
+"Prob151","fsm","sim_fail","yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob151_review2015_fsm_test.sv:76: $finish called at 25346 (1ps)
+Hint: Output 'shift_ena' has 256 mismatches. First mismatch occurred at time 90.
+Hint: Output 'counting' has 1872 mismatches. First mismatch occurred at time 130.
+Hint: Output 'done' has 2024 mismatches. First mismatch occurred at time 180.
+Hint: Total mismatched samples is 4152 out of 5069 samples
+
+Simulation finished at 25346 ps
+Mismatches: 4152 in 5069 samples
+","stop"
+"Prob152","fsm","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob152_lemmings3.sv:83: syntax error
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob152_lemmings3_ref.sv:16: error: Malformed statement
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob152_lemmings3_ref.sv:16: error: Incomprehensible case expression.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob152_lemmings3_ref.sv:17: syntax error
+/home/yangxy/ljr-rtl","stop"
+"Prob153","complex","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob153_gshare.sv:28: syntax error
+/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob153_gshare.sv:28: error: Malformed statement
+","stop"
+"Prob154","fsm","sim_fail","VCD info: dumpfile wave.vcd opened for output.
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob154_fsm_ps2data_test.sv:31: $finish called at 8096 (1ps)
+Hint: Output 'out_bytes' has 444 mismatches. First mismatch occurred at time 280.
+Hint: Output 'done' has 490 mismatches. First mismatch occurred at time 210.
+Hint: Total mismatched samples is 490 out of 1619 samples
+
+Simulation finished at 8096 ps
+Mismatches: 490 in 1619 samples
+","stop"
+"Prob155","fsm","compile_fail","/home/yangxy/ljr-rtl-agent/data/out_stability_r3/Prob155_lemmings4.sv:110: syntax error
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob155_lemmings4_ref.sv:13: error: Malformed statement
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob155_lemmings4_ref.sv:15: syntax error
+/home/yangxy/ljr-rtl-agent/data/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob155_lemmings4_ref.sv:16: error: Malformed statement
+/home/yangxy/ljr-rtl-agent/data/V","stop"
+"Prob156","complex","sim_fail","ta/VerilogEval_v2_dataset/dataset_spec-to-rtl/Prob156_review2015_fancytimer_test.sv:216: $finish called at 1000000 (1ps)
+Hint: Output 'count' has 198551 mismatches. First mismatch occurred at time 130.
+Hint: Output 'counting' has 198551 mismatches. First mismatch occurred at time 130.
+Hint: Output 'done' has 524 mismatches. First mismatch occurred at time 20130.
+Hint: Total mismatched samples is 199075 out of 200000 samples
+
+Simulation finished at 1000000 ps
+Mismatches: 199075 in 200000 samples
+","stop"
